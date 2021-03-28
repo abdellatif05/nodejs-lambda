@@ -1,1 +1,8 @@
-console.log('hello')
+exports.handler = async (event) => {
+    // TODO implement
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify('hello world!'),
+    };
+    return response;
+};
